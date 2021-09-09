@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    p{
+        color:blue;
+        font-size:20px;
+        background-color: red;
+        opacity: 0.7;
+        text-align:center;
+    }
+    .Class1{
+        font: size 30px;
+        font-weight: bold;
+        font-style: italic;
+        color:green;
+    }
+    .Class2{
+        font: size 60;
+        font-weight: bold;
+        font-style: italic;
+        color:orange;
+        background-color:blue;
+        opacity: .8;
+    }
+    #id1{
+        font-size: 30px;
+        color:purple;
+        background-color:black;
+        opacity:0.5;
+    }
+    p.Class1{
+        font-size: 70px;
+        text-align:center;
+        font-weight:bold;
+        font-style:italic;
+        background-color: palevioletred;
+    }
+    p.Class3{
+        font-size: 60px;
+        text-align:left;
+        font-weight:bold;
+        font-style:italic;
+        background-color:purple;
+    }
+ 
+    article > section {
+        font-size: 40px;
+        background-color:gold;
+        color:red;
+
+    }
+    article div {
+        color:green;
+    }
+</style>
+</head>
+<body>
+    <h1 class="Class1">This is Heading frm Class1</h1>
+    <p>This is Using Element selector for paragraph</p>
+    <div class="Class1">This is from Class 1</div>
+    <div id="id1">This isFrom Id1 </div>
+    <p class="Class1">This is from Combining p and Class1</p>
+    <p class="Class2">This is from Class2</p>
+    <p class="Class3">This is from Class3</p>
+    <article>
+    <section>
+        This div is direct child of P
+        <div>This Div is not Direct child of Article</div>
+    </section>
+       
+    
+    </article>
+
+
+</body>
+</html>
