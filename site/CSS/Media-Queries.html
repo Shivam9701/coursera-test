@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queriest</title>
+
+
+    <style>
+     
+       h1{
+           margin-bottom: 15px;
+       }
+       p{
+           width:115%;
+           height: 50px;
+           margin-bottom: 15px;
+           position: relative;
+           border: 6px solid black;
+
+       }
+       #id1{
+           background-color: darkred;
+           height: 300px;
+           width: 300px;
+       }
+       #id2{
+           background-color: yellow;
+           height: 50px;
+           width: 50px;
+       }
+       #id3{
+           background-color: blue;
+       }
+
+       /* Large Devices*/
+       @media (min-width: 1200px){
+           #id1{
+               width: 80%;
+           }
+           #id2{
+               width: 150%;
+               height: 150%px;
+           }
+       }
+
+       @media (min-width: 992px) and (max-width:1199px){
+           #id1{
+               width: 60%;
+               height: 60%;
+
+           }
+           #id2{
+               width: 20%;
+               height: 20%;
+           }
+       }
+
+    
+
+
+
+
+
+
+    </style>
+
+
+
+
+</head>
+
+
+
+<body>
+    <h1> Welcome to the Media Query</h1>
+    <p id="id1">
+    </p> 
+    <p id="id2"></p>
+</body>
+</html>
