@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+h1{
+    text-align: center;
+    
+}
+
+section{
+  
+    background-color:grey;
+    border: 10px solid black;
+
+    float: left;
+}
+section p{
+    padding: 10px;
+    margin: 10px;
+   
+}
+ section span{
+   
+    border: 1px solid black;
+    
+}
+#id1{
+    background-color: palevioletred;
+}
+#id2{
+    background-color:green;
+}
+#id3{
+    background-color:crimson;
+}
+
+.row{
+    width:100%;
+}
+@media(min-width: 992px){
+
+
+    .col-lg-4{
+        float: left;
+        width: 33.33%    }
+
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+  .col-md-6{
+      width: 50%;
+      float: left;
+  }
+  section.col-md-6:nth-child(3){
+      width: 100%;
+      float: left;
+  }
+}
+
+@media(max-width: 767px){
+    .col-sm-12{
+        width: 100%;
+        float: left;
+    }
+
+}
