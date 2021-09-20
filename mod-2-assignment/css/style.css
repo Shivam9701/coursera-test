@@ -1,27 +1,37 @@
 *{
     box-sizing: border-box;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:cursive;
 }
 h1{
     text-align: center;
+    font-size:275%;
     
 }
+
 
 section{
   
     background-color:grey;
-    border: 10px solid black;
-
+    border: 2px solid black;
+    margin: 10px;
     float: left;
-}
-section p{
+    position: relative;
+    
+} p{
     padding: 10px;
     margin: 10px;
+    margin-top: 25px;
    
 }
- section span{
-   
-    border: 1px solid black;
+span{
+    position: absolute;
+    width: 100px;
+    border: 2px solid black;
+    top: 0px;
+    right: 0px;
+    font-size: 125%;
+    
+    text-align: center;
     
 }
 #id1{
@@ -51,7 +61,7 @@ section p{
       width: 50%;
       float: left;
   }
-  section.col-md-6:nth-child(3){
+  .row .col-md-6:nth-child(3){
       width: 100%;
       float: left;
   }
