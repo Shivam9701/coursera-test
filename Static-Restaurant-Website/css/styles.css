@@ -33,7 +33,7 @@ body{
   text-transform: uppercase;
   text-shadow: 1px 1px 0px;
   font-family: "lora",sans-serif;
-  font-size: 1.4em;
+  font-size: 1.7em;
  
   
 }
@@ -50,5 +50,83 @@ body{
  
   text-transform: uppercase;
 
+
+}
+
+#nav-list{
+  margin-top :10px;
+}
+
+#nav-list a{
+  text-align: center;
+  color: #61122f;
+}
+
+#nav-list a:hover{
+  color: #fff;
+}
+
+#nav-list span{
+  font-size: 1em;
+
+}
+
+#phone div{
+  text-align: right;
+  color:green;
+}
+
+.navbar-header .icon-bar{
+  border: 2px solid #61122f;
+}
+
+.navbar-header button{
+  clear: both;
+  margin-top: -35px;
+}
+
+@media (min-width: 1200px){
+
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+
+  #logo-img{
+    background: url(../images/restaurant-logo_medium.png) no repeat;
+    width: 150px;
+    height: 150px;
+    margin: 5px 5px 5px 0;
+  }
+
+}
+
+@media(min-width:768px) and (max-width: 991px) {
+
+}
+@media(max-width: 767px){
+
+  .navbar-brand{
+    padding: 10px;
+    height:  80px;
+  }
+  .navbar-brand h1{
+    padding-top: 10px;
+    font-size:5vw;
+  }
+  .navbar-brand p{
+    font-size:.7em;
+    margin-top:10px;
+  }
+  .navbar-brand p img{
+    height: 20px;
+  }
+
+  #collapsable-nav a{
+    font-size:1.8em;
+
+  }
+  #collapsable-nav a span{
+    font-size:1em;
+  }
 
 }
