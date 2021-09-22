@@ -85,6 +85,27 @@ body{
   margin-top: -35px;
 }
 
+
+
+
+#menu-tile, #specials-tile, #map-tile{
+
+  height: 250px;
+  width: 100%;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  margin-top: 20px;
+
+
+}
+
+
+
+
+
+
+
 @media (min-width: 1200px){
 
  .container .jumbotron{
