@@ -33,7 +33,7 @@ body{
   text-transform: uppercase;
   text-shadow: 1px 1px 0px;
   font-family: "lora",sans-serif;
-  font-size: 1.7em;
+  font-size: 1.5em;
  
   
 }
@@ -47,7 +47,6 @@ body{
   font-size: .9em;
   color: black;
   vertical-align: middle;
- 
   text-transform: uppercase;
 
 
@@ -77,30 +76,13 @@ body{
 }
 
 .navbar-header .icon-bar{
-  border:1px solid #61122f;
+  border:1px solid white;
 }
 
 .navbar-header button{
   clear: both;
   margin-top: -35px;
 }
-
-
-
-
-#menu-tile, #specials-tile, #map-tile{
-
-  height: 250px;
-  width: 100%;
-  position: relative;
-  border: 2px solid #3F0C1F;
-  overflow: hidden;
-  margin-top: 20px;
-
-
-}
-
-
 
 
 
@@ -214,6 +196,74 @@ body{
     border: 2px solid#3F0C1F;
     
   }
+
+  .navbar-toggle {
+    background-color: #3F0C1F;
+  }
+
+  #menu-tile, #specials-tile{
+    width: 360px!important;
+    margin: 0 auto 15px;
+
+  }
+
+  #collapsable-nav li{
+    font-size:1.2em;
+    border-top: 2px solid #000;
+  }
   
 
 }
+
+
+
+#menu-tile, #specials-tile, #map-tile{
+
+  height: 250px;
+  width: 100%;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+
+
+  box-shadow: 0 1px 5px #CCCCCC;
+
+}
+
+#menu-tile{
+  background: url('../images/menu-tile.jpg') no-repeat;
+  background-position: center;
+
+}
+
+#specials-tile{
+  background: url('../images/specials-tile.jpg') no-repeat;
+  background-position: center;
+
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 1.7em;
+  color: white;
+  background-color:#000;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+#collapsable-nav li{
+  font-size:1.2em;
+  
+}
+
+
