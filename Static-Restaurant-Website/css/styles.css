@@ -213,6 +213,15 @@ body{
   }
   
 
+  .panel-footer section{
+    margin-top:30px;
+    text-align:center;
+  }
+
+  .panel-footer hr{
+    width:50%;
+  }
+
 }
 
 
@@ -266,4 +275,39 @@ body{
   
 }
 
+.panel-footer{
+  background-color: rgb(34, 34, 34);
+  margin-top: 30px;
+  padding: 5px;
+}
+.panel-footer div.row{
+  margin-bottom: 35px;
+}
+
+#hours, #address{
+  line-height:2;
+}
+
+.panel-footer section{
+  margin-top: 30px;
+}
+
+.panel-footer .container span{
+  font-size:1.3em;
+  
+}
+
+.panel-footer #testimonial{
+  font-style: italic;
+}
+.panel-footer #address p{
+  font-size: .8em;
+  color: #557c3e;
+  line-height:1.8;
+  
+}
+
+.panel-footer .text-center{
+  margin-top: 35px;
+}
 
