@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+#header-nav {
+    background-color: hsl(208, 56%, 41%);
+    border-radius: 0;
+    border-bottom: 2px solid black;
+    margin-bottom:0;
+}
+
+#header-nav h1{
+    color: #fff;
+   margin-top:0;
+    font-size:1.5em;
+}
+
+button.navbar-toggle{
+    background-color: lightgreen;
+    clear: both;
+}
+
+.jumbotron{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+.jumbotron h2{
+    color:crimson;
+    text-transform: uppercase;
+
+}
+#main-content{
+    background-color:chartreuse;
+    width: 95%;
+    
+}
+#main-content h3{
+   font-size :2em;
+   font-weight :bold;
+
+}
+
+@media(max-width: 767px){
+    .navbar-collapse{
+        background-color: coral;
+    }
+    .navbar-collapse ul{
+     
+       
+        margin-bottom:0;
+    }
+    .navbar-collapse li{
+       
+        font-size: 1.3em;
+        border-bottom: 1px solid;
+        margin-bottom:0;
+    }
+    
+}
+
+
