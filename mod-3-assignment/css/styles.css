@@ -38,6 +38,12 @@ button.navbar-toggle{
    font-weight :bold;
 
 }
+#main-content p{
+
+    font-size :1.6em;
+    
+    
+}
 
 @media(max-width: 767px){
     .navbar-collapse{
