@@ -5,4 +5,4 @@ function doOperation (x, operation){
 function double (a){
     return a*2;
 }
-console.log(doOperation(p, double));
+console.log(doOperation(9, double));

@@ -23,13 +23,6 @@ console.log(b);
 
 // function test
 
-function test(x){
-
-    console.log("Value passed before : " + x);
-    x = x*2;
-    console.log("Value after : " + x);
-    
-}
 
 var a =8;
 test(a);
