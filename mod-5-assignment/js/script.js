@@ -12,16 +12,17 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 (function (global) {
 
 var dc = {};
+//shivam9701.github.io/coursera-test/mod-5-assignmentsnippets/
 
-var homeHtmlUrl = "/snippets/home-snippet.html";
+https: var homeHtmlUrl = "snippets/home-snippet.html";
 var allCategoriesUrl =
   "https://davids-restaurant.herokuapp.com/categories.json";
-var categoriesTitleHtml = "/snippets/categories-title-snippet.html";
-var categoryHtml = "/snippets/category-snippet.html";
+var categoriesTitleHtml = "snippets/categories-title-snippet.html";
+var categoryHtml = "snippets/category-snippet.html";
 var menuItemsUrl =
   "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
-var menuItemsTitleHtml = "/snippets/menu-items-title.html";
-var menuItemHtml = "/snippets/menu-item.html";
+var menuItemsTitleHtml = "snippets/menu-items-title.html";
+var menuItemHtml = "snippets/menu-item.html";
 
 
 // Convenience function for inserting innerHTML for 'select'
@@ -202,7 +203,7 @@ function buildAndShowCategoriesHTML (categories) {
 }
 
 
-// Using categories data and /snippets html
+// Using categories data and snippets html
 // build categories view HTML to be inserted into page
 function buildCategoriesViewHtml(categories,
                                  categoriesTitleHtml,
@@ -258,7 +259,7 @@ function buildAndShowMenuItemsHTML (categoryMenuItems) {
 }
 
 
-// Using category and menu items data and /snippets html
+// Using category and menu items data and snippets html
 // build menu items view HTML to be inserted into page
 function buildMenuItemsViewHtml(categoryMenuItems,
                                 menuItemsTitleHtml,
