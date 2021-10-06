@@ -1,23 +1,19 @@
-// event handling
-document.addEventListener(
-  "DOMContentLoaded",
+document.addEventListener("DOMContentLoaded",
+function(event) {
+document.querySelector("button").addEventListener("click",
 
-  function (event) {
-    document.querySelector("button").addEventListener(
-      "click",
 
-      function () {
-        //call server to get name
-        $ajaxUtils.sendGetRequest("data/name.json", function (res) {
-          message = res.firstName + " " + res.lastName;
-          if(res.likesMomos){
-              message +=" likesMomos";
-          }
+function() {
+  
+$ajaxUtils.sendGetRequest("data/name.txt",
+function (request){
+  console.log("p");
+  namw = request.responseText;
+  console.log(namw);
+  document.querySelector("#content").textContent =namw;
 
-          document.querySelector("#content").innerHTML =
-            "<h2>" + message + "</h2>";
-        });
-      }
-    );
-  }
-);
+});
+
+
+}
+)});
