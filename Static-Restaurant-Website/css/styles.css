@@ -84,6 +84,13 @@ body{
   margin-top: -35px;
 }
 
+ #collapsable-nav a{
+     font-size:1em;
+ 
+   }
+   #collapsable-nav a span{
+     font-size:1em;
+   }
 
 
 
@@ -322,7 +329,7 @@ h3.menu-item-title{
    }
  
    #collapsable-nav a{
-     font-size:1.4em;
+     font-size:1em;
  
    }
    #collapsable-nav a span{
