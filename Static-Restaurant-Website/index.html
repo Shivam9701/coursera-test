@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>David Chu's Chinese Bistro</title>
+    
+    <title>Chu's Chinese Bistro</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,10 +16,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <script src="js/jquery-2.1.4.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/ajax-utils.js"></script>
-    <script src="js/script.js"></script>
+   
+
     
 
     <header>
@@ -71,16 +70,10 @@
                             </span>
                             </a>
                     </li>
-                   <li>
-                       <a href="menu-categories.html">
-
-                        <span class="glyphicon glyphicon-cutlery">
-                            <br class="hidden-xs">
-                            Menu
-                        </span>
-
-                       </a>
-                   </li>
+                   <li id="navMenuButton">
+              <a href="#" onclick="$dc.loadMenuCategories();">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+            </li>
                    <li>
                        <a href="#">
                            <span class="glyphicon glyphicon-info-sign">
@@ -199,6 +192,14 @@
         
 
     </footer>
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/ajax-utils.js"></script>
+    <script src="js/script.js"></script>
+ 
+
+
 
    
 

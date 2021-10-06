@@ -1,7 +1,9 @@
-(function (global) {
+(function (window) {
 
 // Set up a namespace for our utility
-var ajaxUtils = {};
+var ajaxUtils_ = {
+  name_ :"dog"
+};
 
 
 // Returns an HTTP request object
@@ -14,14 +16,14 @@ function getRequestObject() {
     return (new ActiveXObject("Microsoft.XMLHTTP"));
   } 
   else {
-    global.alert("Ajax is not supported!");
+    window.alert("Ajax is not supported!");
     return(null); 
   }
 }
 
 
 // Makes an Ajax GET request to 'requestUrl'
-ajaxUtils.sendGetRequest = 
+ajaxUtils_.sendGetRequest = 
   function(requestUrl, responseHandler, isJsonResponse) {
     var request = getRequestObject();
     request.onreadystatechange = 
@@ -59,8 +61,8 @@ function handleResponse(request,
 }
 
 
-// Expose utility to the global object
-global.$ajaxUtils = ajaxUtils;
+// Expose utility to the window object
+window.$ajaxUtils_ = ajaxUtils_;
 
 
 })(window);
