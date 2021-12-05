@@ -14,7 +14,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 var dc = {};
 //shivam9701.github.io/coursera-test/mod-5-assignmentsnippets/
 
-https: var homeHtmlUrl = "snippets/home-snippet.html";
+ var homeHtmlUrl ="snippets/home-snippet.html";
 var allCategoriesUrl =
   "https://davids-restaurant.herokuapp.com/categories.json";
 var categoriesTitleHtml = "snippets/categories-title-snippet.html";
