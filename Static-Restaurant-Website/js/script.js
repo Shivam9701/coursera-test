@@ -71,7 +71,7 @@ $(function () {
   });
 
   dc.loadMenuCategories = function () {
-    console.log("poop");
+    
     showloading("#main-content");
     $ajaxUtils_.sendGetRequest(allCategoriesUrl, buildAndShowCategoriesHTML);
   };
